@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Proxima Nova';
+    width: 21cm;
+    height: 29.7cm;
+    margin: 15mm 20mm 15mm 20mm; 
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.sidebarInfo > div {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarInfo > span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.sidebarInfo > h1 {
+    color: #3285a8;
+}
+
+.sidebarInfo > div > i {
+    size: 14px;
+}
+
+.sidebarInfo > div > span {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.sidebarInfo > div > a {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.photo{
+    max-width: 160px;
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    flex-flow: column;
+}
+
+.vl {
+    border-left: 1px solid #3285a8;
+    height: 100%;
+  }
+
+.sidebar{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.title {
+    margin-left: 30px;  
+}
+
+.title > h2{
+    font-size: 14px;
+    color: gray;
+    margin-top: 0;
+}
+
+.title > h1{
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-top: 48px;
+}
